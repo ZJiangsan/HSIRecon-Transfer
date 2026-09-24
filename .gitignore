@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments
+.venv/
+venv/
+env/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Large scientific data / model artifacts
+*.npy
+*.npz
+*.pth
+*.pt
+*.pkl
+*.pickle
+
+# Generated outputs
+results/generated/
+outputs/
+cache/
+checkpoints/
+
+# Logs / temporary
+*.log
+*.tmp
