@@ -157,3 +157,7 @@ Small manuscript-facing CSV/figure outputs can be copied into `results/` after t
 ## Citation
 
 Please cite the associated manuscript when using this code. The full bibliographic citation can be added here after publication.
+
+## Reviewer-revision diagnostics (November 2026)
+
+Additional **post-hoc, non-training** code for plot-cluster bootstrap confidence intervals, complete 11-triplet × three-model transfer tables, wavelength-specific reconstruction errors, real measured-versus-reconstructed spectra, and downstream 81-feature deviations is available in [`scripts/revision/`](scripts/revision/README.md). These analyses use the existing fixed train/validation/test split, saved test predictions and reconstruction checkpoints; they do not replace or retrain the original experiments.
